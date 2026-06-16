@@ -18,7 +18,9 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+console.log("Loading auth routes...");
 app.use('/api/auth', authRoutes);
+console.log("Auth routes loaded successfully");
 app.use('/api/posts', postRoutes);
 
 app.use((req, res) => {
