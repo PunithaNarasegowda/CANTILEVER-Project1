@@ -83,8 +83,8 @@ MONGODB_URI=mongodb://127.0.0.1:27017/cantilever_blog
 
 Copy the example files and fill them in:
 
-- `backend/.env.example` to `backend/.env`
-- `frontend/.env.example` to `frontend/.env`
+- `backend/.env`
+- `frontend/.env`
 
 Backend environment values:
 
